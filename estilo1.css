@@ -1,0 +1,66 @@
+body { 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color:whitesmoke;
+    margin: 3%;
+
+}
+
+.perfil {
+    flex: 1 1 0%;
+    align-items: center;
+    display: flex;
+}
+
+.imagen-contenida {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.foto-perfil {
+    width: auto;
+    height: 3rem;
+    border-radius: 9999px;
+}
+
+.nombre {
+    margin-left: 2.2rem;
+    margin-right: 2.5rem;
+}
+
+.nombre a {
+    --tw-text-opacity: 1;
+    color: purple; 
+    font-weight: 500;
+}
+
+.fecha {
+text-align: right;
+
+}
+
+.articulo-vegetal h1  {
+    color: gray;
+   
+        
+}
+
+.articulo-vegetal p {
+    color: darkslategrey;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
