@@ -146,22 +146,6 @@ main {
 
 }
 
-.overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background: rgba(0, 118, 192, 0.781);
-    width: 100%;
-    height: 0;
-    transition: 1s;
-    overflow: hidden;
-}
-
-.imagen-articulo-blog:hover .overlay {
-    height: 100%;
-    cursor: pointer;
-}
-
 .imagen-articulo-blog {
     flex-shrink: 0;
 
@@ -213,28 +197,7 @@ main {
     line-height: 1.25rem;
 }
 
-@media screen and (max-width: 1000px){
-  .articulos-blog { 
-   width: 95%; 
-}
-}
 
-@media screen and (max-width: 700px){
-   .articulos-blog
-   {width: 90%; 
-}
- .imagen-articulo-blog
-    {width: 48%;
- }
-}
-
-@media screen and (max-width: 450px) {
-.presentacion-blog h1
-{font-size: 22px; }
-}
-
-
-   
 
 
 
